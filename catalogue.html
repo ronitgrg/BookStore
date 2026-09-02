@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="catalogue-container">
+        <h2>Book Catalogue</h2>
+        <table class="catalogue-table">
+            <thead>
+                <tr>
+                    <th>Book Image</th>
+                    <th>Book Name</th>
+                    <th>Author Name</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="https://covers.openlibrary.org/b/isbn/9780132222204-M.jpg" alt="Computer Science" class="book-img"></td>
+                    <td>Computer Science</td>
+                    <td>Robert Sedgewick</td>
+                    <td>Rs. 4000</td>
+                    <td><button class="cart-btn" onclick="alert('Added to cart!')">Add to Cart</button></td>
+                </tr>
+                <tr>
+                    <td><img src="https://covers.openlibrary.org/b/isbn/9780131480056-M.jpg" alt="Operating System" class="book-img"></td>
+                    <td>Operating System Concepts</td>
+                    <td>Dr. Ikvinderpal Singh</td>
+                    <td>Rs. 3800</td>
+                    <td><button class="cart-btn" onclick="alert('Added to cart!')">Add to Cart</button></td>
+                </tr>
+                <tr>
+                    <td><img src="https://covers.openlibrary.org/b/isbn/9780596004661-M.jpg" alt="AI Book" class="book-img"></td>
+                    <td>Artificial Intelligence</td>
+                    <td>Charu C. Agarwal</td>
+                    <td>Rs. 5000</td>
+                    <td><button class="cart-btn" onclick="alert('Added to cart!')">Add to Cart</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="note">Select a category from the left panel to view more.</p>
+    </div>
+</body>
+</html>

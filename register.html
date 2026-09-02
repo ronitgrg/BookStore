@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="register-container">
+        <div class="register-box">
+            <h2>Registration Page</h2>
+            <form action="#" method="post">
+                <input type="text" placeholder="Full Name" required><br>
+                <input type="email" placeholder="Email" required><br>
+                <input type="text" placeholder="Mobile No." pattern="[0-9]{10}" required><br>
+                <input type="password" placeholder="Password" required><br>
+                <input type="password" placeholder="Confirm Password" required><br>
+
+                <label>Gender:</label><br>
+                <input type="radio" name="sex" value="male"> Male
+                <input type="radio" name="sex" value="female"> Female
+                <input type="radio" name="sex" value="other"> Other
+                <br><br>
+
+                <label>Date of Birth:</label><br>
+                <select name="day" required>
+                    <option value="">Day</option>
+                    <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
+                    <option>15</option><option>20</option><option>25</option><option>30</option>
+                </select>
+                <select name="month" required>
+                    <option value="">Month</option>
+                    <option>January</option><option>February</option><option>March</option>
+                    <option>April</option><option>May</option><option>June</option>
+                    <option>July</option><option>August</option><option>September</option>
+                    <option>October</option><option>November</option><option>December</option>
+                </select>
+                <select name="year" required>
+                    <option value="">Year</option>
+                    <option>2000</option><option>2001</option><option>2002</option>
+                    <option>2003</option><option>2004</option><option>2005</option>
+                </select>
+                <br><br>
+
+                <label>Languages Known:</label><br>
+                <input type="checkbox" name="language" value="english"> English<br>
+                <input type="checkbox" name="language" value="hindi"> Hindi<br>
+
+                <label>Address:</label><br>
+                <textarea name="address" rows="4" cols="40" placeholder="Enter your address here"></textarea><br><br>
+
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
